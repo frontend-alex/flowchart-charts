@@ -1,6 +1,6 @@
 # University Projects Repository
 
-Welcome to the University Projects Repository! This repository contains a collection of projects from various courses and assignments. Each project is organized in its own directory, with clear instructions on how to set up, run, and understand the project.
+Welcome to my University Projects Repository! This repository contains a collection of projects from various courses and assignments. Each project is organized in its own directory, with clear instructions on how to set up, run, and understand the project.
 
 ## Table of Contents
 
