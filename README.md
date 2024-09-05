@@ -16,7 +16,7 @@ Welcome to the University Projects Repository! This repository contains a collec
 Here is a brief overview of the projects included in this repository:
 
 - **Project 1: [ Week 1 ]**
-  - **Description:** A brief description of the project.
+  - **Description:** Figma FlowChart and Python implementation.
   - **Directory:** `/week-1`
 
 ## Getting Started
