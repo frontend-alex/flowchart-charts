@@ -2,15 +2,16 @@
 
 def find_room(subject):
     rooms = {
-        'Computing': '401',
-        'Biology': '211',
-        'Electronics': '75'
+        'computing': '401',
+        'biology': '211',
+        'electronics': '75'
     }
+    
     return rooms.get(subject, None)
 
 def main():
     name = input("Enter your name: ").strip()
-    subject = input("Enter the subject you are studying: ").strip()
+    subject = input("Enter the subject you are studying: ").strip().lower()
     
     room = find_room(subject)
     

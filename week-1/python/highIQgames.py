@@ -6,7 +6,6 @@ def play_game():
             if player_input < 10:
                 if player_input == 9:
                     print("You typed 9, which is valid.")
-                # Respond with N + 1
                 print(f"{player_input + 1} I win!")
             else:
                 print("The number must be lower than 10.")
@@ -17,6 +16,5 @@ def play_game():
         except ValueError:
             print("Please enter a valid integer.")
 
-# Start the game
 if __name__ == "__main__":
     play_game()
