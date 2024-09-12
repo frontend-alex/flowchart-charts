@@ -1,79 +1,139 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="Страница-1" id="umuHSqBc2B9mPuC_vvN_">
-    <mxGraphModel dx="1877" dy="1772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="937" dy="2017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Start" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry y="237" width="50" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="3" value="Input N" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="100" y="203" width="101" height="101" as="geometry" />
-        </mxCell>
-        <mxCell id="4" value="Validate N" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="316" y="192" width="122" height="122" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="Generate Random Number" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="536" y="21" width="239" height="239" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="Display Error Message" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="571" y="311" width="170" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="7" value="Compare N and Random Number" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="825" width="282" height="282" as="geometry" />
-        </mxCell>
-        <mxCell id="8" value="Output: N &amp;lt; Random" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1262" y="143" width="181" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.5;" parent="1" source="2" target="3" edge="1">
+        <mxCell id="jp-I7nv-PnrVhd4E1861-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp-I7nv-PnrVhd4E1861-16">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="400" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="10" value="N &amp;lt; 10" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="3" target="4" edge="1">
+        <mxCell id="jp-I7nv-PnrVhd4E1861-16" value="start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp-I7nv-PnrVhd4E1861-18" target="jp-I7nv-PnrVhd4E1861-20">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="400" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="11" value="Valid" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0;entryX=0;entryY=0.5;" parent="1" source="4" target="5" edge="1">
+        <mxCell id="jp-I7nv-PnrVhd4E1861-18" value="Ask player for number (n)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp-I7nv-PnrVhd4E1861-20">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="487" y="141" />
-            </Array>
+            <mxPoint x="300" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="12" value="Invalid" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.84;entryX=0;entryY=0.49;" parent="1" source="4" target="6" edge="1">
+        <mxCell id="jp-I7nv-PnrVhd4E1861-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp-I7nv-PnrVhd4E1861-20">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="487" y="327" />
-            </Array>
+            <mxPoint x="500" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="5" target="7" edge="1">
+        <mxCell id="jp-I7nv-PnrVhd4E1861-20" value="If N &amp;lt; 10" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp-I7nv-PnrVhd4E1861-23">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="300" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="14" value="N &gt; Random" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.46;entryX=0.1;entryY=0.01;" parent="1" source="7" target="8" edge="1">
+        <mxCell id="jp-I7nv-PnrVhd4E1861-23" value="yes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp-I7nv-PnrVhd4E1861-25">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1185" y="122" />
-            </Array>
+            <mxPoint x="500" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="15" value="N = Random" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.54;entryX=0;entryY=0.52;" parent="1" source="7" target="8" edge="1">
+        <mxCell id="jp-I7nv-PnrVhd4E1861-25" value="No" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.542;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jp-I7nv-PnrVhd4E1861-27" target="jp-I7nv-PnrVhd4E1861-29">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1185" y="160" />
-            </Array>
+            <mxPoint x="500" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16" value="N &amp;lt; Random" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.63;entryX=0.1;entryY=1.03;" parent="1" source="7" target="8" edge="1">
+        <mxCell id="jp-I7nv-PnrVhd4E1861-27" value="N &amp;gt;= 10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-29" value="You entered a number not lower than 10.&lt;div&gt;I win!&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="610" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp-I7nv-PnrVhd4E1861-33">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1185" y="199" />
-            </Array>
+            <mxPoint x="200" y="560" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.578;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jp-I7nv-PnrVhd4E1861-33" target="jp-I7nv-PnrVhd4E1861-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-33" value="Check if N is 9" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp-I7nv-PnrVhd4E1861-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-36" value="yes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp-I7nv-PnrVhd4E1861-37" target="jp-I7nv-PnrVhd4E1861-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390.0000000000001" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-37" value="No" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-39" value="You cannot say 10 which is&amp;nbsp;&lt;div&gt;not lower tha n 10.&lt;/div&gt;&lt;div&gt;I win.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="680" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp-I7nv-PnrVhd4E1861-41" target="jp-I7nv-PnrVhd4E1861-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390.0000000000001" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-41" value="N + 1, &quot;I win&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="810" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp-I7nv-PnrVhd4E1861-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300.0000000000001" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp-I7nv-PnrVhd4E1861-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-43" value="Ask player to play again (J/N)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp-I7nv-PnrVhd4E1861-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-45" value="J" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jp-I7nv-PnrVhd4E1861-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-47" value="N" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-49" value="Exit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jp-I7nv-PnrVhd4E1861-51" value="Go back to step 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
