@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="Страница-1" id="umuHSqBc2B9mPuC_vvN_">
-    <mxGraphModel dx="1909" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1105" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,9 +12,6 @@
         </mxCell>
         <mxCell id="jp-I7nv-PnrVhd4E1861-39" value="You cannot say 10 which is&amp;nbsp;&lt;div&gt;not lower tha n 10.&lt;/div&gt;&lt;div&gt;I win.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="110" y="440" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jp-I7nv-PnrVhd4E1861-49" value="Exit" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="510" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fDv0vLLPTJDluUd_WaUW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fDv0vLLPTJDluUd_WaUW-2" target="fDv0vLLPTJDluUd_WaUW-3">
           <mxGeometry relative="1" as="geometry" />
@@ -75,13 +72,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="fDv0vLLPTJDluUd_WaUW-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fDv0vLLPTJDluUd_WaUW-31" target="fDv0vLLPTJDluUd_WaUW-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fDv0vLLPTJDluUd_WaUW-31" value="Ask player to play again (J/N)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fDv0vLLPTJDluUd_WaUW-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.588;entryY=0.064;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fDv0vLLPTJDluUd_WaUW-28" target="fDv0vLLPTJDluUd_WaUW-31">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fDv0vLLPTJDluUd_WaUW-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.533;entryY=-0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fDv0vLLPTJDluUd_WaUW-31" target="jp-I7nv-PnrVhd4E1861-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fDv0vLLPTJDluUd_WaUW-35" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -89,6 +86,9 @@
         </mxCell>
         <mxCell id="fDv0vLLPTJDluUd_WaUW-36" value="J" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fDv0vLLPTJDluUd_WaUW-38" value="exit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="620" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
