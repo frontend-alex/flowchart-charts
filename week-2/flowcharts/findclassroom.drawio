@@ -1,69 +1,84 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="Страница-1" id="DrLyAizZcmLOJlVjiaO6">
-    <mxGraphModel>
+    <mxGraphModel dx="2577" dy="2174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Start" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="2" value="Start" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="92" width="50" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Ask student for name" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="32" y="83" width="168" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="4" value="Student provides name?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="4" value="Student provides name?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="7" y="185" width="219" height="219" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Ask student for subject" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="25" y="473" width="182" height="33" as="geometry" />
+        <mxCell id="6" value="Student provides subject?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-0.5" y="585" width="233" height="233" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Student provides subject?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry y="575" width="233" height="233" as="geometry" />
-        </mxCell>
-        <mxCell id="7" value="Confirm name and subject" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="14" y="876" width="205" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1.01;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1.01;entryX=0.5;entryY=0.01;" parent="1" source="2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint x="117" y="83" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=1.02;entryX=0.45;entryY=0;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=1.02;entryX=0.45;entryY=0;" parent="1" target="4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="102" y="151" />
             </Array>
+            <mxPoint x="112.15384615384619" y="116" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="10" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="10" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint x="115.99999999999977" y="473" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="11" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=0;entryX=0.53;entryY=1.02;" edge="1" parent="1" source="4" target="3">
+        <mxCell id="11" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=0;entryX=0.53;entryY=1.02;" parent="1" source="4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="131" y="151" />
             </Array>
+            <mxPoint x="121.84615384615404" y="116" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.48;exitY=1.01;entryX=0.45;entryY=0;" edge="1" parent="1" source="5" target="6">
+        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.48;exitY=1.01;entryX=0.45;entryY=0;" parent="1" target="6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="102" y="541" />
             </Array>
+            <mxPoint x="112.43137254901944" y="505.99999999999955" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="13" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="6" target="7">
+        <mxCell id="13" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;" parent="1" source="6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint x="117" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="14" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=0;entryX=0.53;entryY=1.01;" edge="1" parent="1" source="6" target="5">
+        <mxCell id="14" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=0;entryX=0.53;entryY=1.01;" parent="1" source="6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="131" y="541" />
             </Array>
+            <mxPoint x="121.3529411764705" y="505.99999999999955" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2iese0p0-KC5ZY_0e3Ty-14" value="Ask student for name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="56" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2iese0p0-KC5ZY_0e3Ty-15" value="ask student for subject" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="57" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2iese0p0-KC5ZY_0e3Ty-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2iese0p0-KC5ZY_0e3Ty-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="117" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2iese0p0-KC5ZY_0e3Ty-16" value="display the room number&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="57" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2iese0p0-KC5ZY_0e3Ty-18" value="end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="56" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
