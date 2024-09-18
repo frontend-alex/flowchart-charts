@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../styles/main.css" />
+  </head>
+  <body class="bg min-h-screen">
+    <div class="flex flex-col gap-5">
+      <div class="switch">
+        <input
+          id="switch-y"
+          name="tripple"
+          type="radio"
+          value="Y"
+          class="switch-input"
+        />
+        <label for="switch-y" class="switch-label switch-label-y">Solo</label>
+        <input
+          id="switch-i"
+          name="tripple"
+          type="radio"
+          value="I"
+          class="switch-input"
+          checked
+        />
+        <label for="switch-i" class="switch-label switch-label-i"
+          >Multiplayer</label
+        >
+        <input
+          id="switch-n"
+          name="tripple"
+          type="radio"
+          value="N"
+          class="switch-input"
+        />
+        <label for="switch-n" class="switch-label switch-label-n">Local</label>
+        <span class="switch-selector"></span>
+      </div>
+      <div class="flex flex-col gap-3 max-w-wrapper w-full">
+        <div class="flex-between relative">
+          <h1 class="text-2xl lg:text-4xl font-bold">Chose your difficulty</h1>
+          <img class="cursor-pointer info-icon" src="../assets/svg/info.svg" />
+          <div class="info-container">
+            <h1 class="text-2xl font-bold mb-2">Hangman Game Tutorial</h1>
+            <p class="mb-2">
+              <strong>Objective:</strong>Guess the hidden word one letter at a
+              time before the hangman is fully drawn.
+            </p>
+            <h2 class="text-lg font-bold mb-2">How to play</h2>
+            <ol class="flex flex-col gap-3 list-decimal px-5">
+              <li>
+                <strong>Start:</strong>The game selects a secret word, and you
+                see blanks (_) representing each letter.
+              </li>
+              <li>
+                <strong>Guess Letters:</strong> Enter one letter at a time.
+                <ul class="list-disc px-5">
+                  <li><strong>Correct Guess:</strong> The letter fills in the blanks where it appears.</li>
+                  <li><strong>Wrong Guess:</strong> A part of the hangman drawing is added.</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Win:</strong> Guess all letters before the drawing is complete.
+              </li>
+              <li>
+                <strong>Lose:</strong> If the hangman is fully drawn before you guess the word.
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div
+          id="card_wrapper"
+          class="grid gird-cols-1 md:grid-cols-3 gap-3"
+        ></div>
+        <div
+          class="flex flex-col md:flex-row justify-between items-center gap-3"
+        >
+          <button class="bg-white w-full md:w-max p-2 px-5 text-sm rounded-md">
+            Dropdown >
+          </button>
+          <button
+            class="bg-black text-white w-full md:w-max p-2 px-10 text-sm rounded-md"
+          >
+            Play
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../js/index.js" type="module"></script>
+  </body>
+</html>
