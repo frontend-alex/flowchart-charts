@@ -1,205 +1,38 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="Страница-1" id="S0mMQqyAMBiGDCo-rot-">
-    <mxGraphModel dx="1877" dy="1772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1105" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Start" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="381" width="50" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="3" value="Input Player 1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="331" y="83" width="149" height="149" as="geometry" />
-        </mxCell>
-        <mxCell id="4" value="Ask for Player 1&#39;s Name" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="250" y="300" width="183" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="Receive Player 1&#39;s Name" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="247" y="384" width="188" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="Input Player 2" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="267" y="467" width="149" height="149" as="geometry" />
-        </mxCell>
-        <mxCell id="7" value="Ask for Player 2&#39;s Name" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="186" y="684" width="183" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="8" value="Receive Player 2&#39;s Name" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="183" y="767" width="188" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="9" value="Input Player 3" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="203" y="851" width="149" height="149" as="geometry" />
-        </mxCell>
-        <mxCell id="10" value="Ask for Player 3&#39;s Name" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="82" y="1068" width="183" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="11" value="Receive Player 3&#39;s Name" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="79" y="1151" width="188" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="12" value="Input Height for Player 1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1235" width="226" height="226" as="geometry" />
-        </mxCell>
-        <mxCell id="13" value="Ask for Player 1&#39;s Height" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="78" y="1529" width="189" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="14" value="Receive Player 1&#39;s Height" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="76" y="1612" width="194" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="15" value="Input Height for Player 2" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="60" y="1695" width="226" height="226" as="geometry" />
-        </mxCell>
-        <mxCell id="16" value="Ask for Player 2&#39;s Height" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="78" y="1990" width="189" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="17" value="Receive Player 2&#39;s Height" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="76" y="2073" width="194" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="18" value="Input Height for Player 3" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="60" y="2156" width="226" height="226" as="geometry" />
-        </mxCell>
-        <mxCell id="19" value="Ask for Player 3&#39;s Height" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="78" y="2451" width="189" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="20" value="Receive Player 3&#39;s Height" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="76" y="2534" width="194" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="TxTdsrYPVHf0KI3DOdrS-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="22">
+        <mxCell id="WpeUTH4BJ5jOMlnelxDK-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WpeUTH4BJ5jOMlnelxDK-46" target="WpeUTH4BJ5jOMlnelxDK-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="21" value="Output the Name and Height of the tallest plater" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="2710" width="346" height="33" as="geometry" />
+        <mxCell id="WpeUTH4BJ5jOMlnelxDK-46" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="22" value="End" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="369" y="2790" width="41" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1.01;entryX=0.5;entryY=0;" parent="1" source="2" target="3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="24" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.21;exitY=1;entryX=0.5;entryY=0.01;" parent="1" source="3" target="4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="341" y="266" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=-0.01;" parent="1" source="4" target="5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="5" target="6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="27" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=1;entryX=0.5;entryY=0;" parent="1" source="6" target="7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="277" y="650" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;" parent="1" source="7" target="8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.03;entryX=0.5;entryY=0;" parent="1" source="8" target="9" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="30" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.02;exitY=1;entryX=0.5;entryY=-0.01;" parent="1" source="9" target="10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="173" y="1034" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="10" target="11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;" parent="1" source="11" target="12" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="33" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;" parent="1" source="12" target="13" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="13" target="14" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;" parent="1" source="14" target="15" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="36" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;" parent="1" source="15" target="16" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="16" target="17" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;" parent="1" source="17" target="18" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="39" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;" parent="1" source="18" target="19" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="19" target="20" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="20" target="TxTdsrYPVHf0KI3DOdrS-48" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="43" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.91;entryX=1;entryY=0.22;" parent="1" source="3" target="22" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="539" y="266" />
-              <mxPoint x="539" y="2676" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="44" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.95;entryX=0.64;entryY=-0.01;" parent="1" source="6" target="22" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="460" y="650" />
-              <mxPoint x="460" y="2676" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="45" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.97;exitY=1;entryX=-0.01;entryY=0.1;" parent="1" source="9" target="22" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="381" y="1034" />
-              <mxPoint x="381" y="2676" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TxTdsrYPVHf0KI3DOdrS-48" value="Calculate the highest player of all 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="2600" width="310" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="TxTdsrYPVHf0KI3DOdrS-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.539;entryY=0.109;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TxTdsrYPVHf0KI3DOdrS-48" target="21">
+        <mxCell id="WpeUTH4BJ5jOMlnelxDK-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WpeUTH4BJ5jOMlnelxDK-48" target="WpeUTH4BJ5jOMlnelxDK-52">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WpeUTH4BJ5jOMlnelxDK-48" value="Input Name&lt;div&gt;Input Height&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WpeUTH4BJ5jOMlnelxDK-51" value="3x" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="195" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WpeUTH4BJ5jOMlnelxDK-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WpeUTH4BJ5jOMlnelxDK-52" target="WpeUTH4BJ5jOMlnelxDK-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WpeUTH4BJ5jOMlnelxDK-52" value="Find the tallest player with max()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="300" width="136" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="WpeUTH4BJ5jOMlnelxDK-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WpeUTH4BJ5jOMlnelxDK-54" target="WpeUTH4BJ5jOMlnelxDK-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WpeUTH4BJ5jOMlnelxDK-54" value="Output the tallest player&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WpeUTH4BJ5jOMlnelxDK-56" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="620" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
