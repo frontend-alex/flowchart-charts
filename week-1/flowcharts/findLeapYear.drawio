@@ -4,113 +4,112 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5" value="Is it a leap year?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="137" y="480" width="166" height="166" as="geometry" />
+        <mxCell id="NvN5JZaUXI073msF3Hnl-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NvN5JZaUXI073msF3Hnl-30" target="NvN5JZaUXI073msF3Hnl-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="year % 4 == 0" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="100" y="710" width="110" height="33" as="geometry" />
+        <mxCell id="NvN5JZaUXI073msF3Hnl-30" value="start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NvN5JZaUXI073msF3Hnl-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8" target="10">
+        <mxCell id="NvN5JZaUXI073msF3Hnl-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NvN5JZaUXI073msF3Hnl-31" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="70" y="829" />
-            </Array>
+            <mxPoint x="220" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NvN5JZaUXI073msF3Hnl-39" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NvN5JZaUXI073msF3Hnl-38">
-          <mxGeometry x="-0.081" y="2" relative="1" as="geometry">
+        <mxCell id="NvN5JZaUXI073msF3Hnl-31" value="input year" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NvN5JZaUXI073msF3Hnl-41" target="NvN5JZaUXI073msF3Hnl-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NvN5JZaUXI073msF3Hnl-41" value="Output is the year is not leap" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NvN5JZaUXI073msF3Hnl-42" value="end" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2f-ERKKddVoNyR4mqD_f-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-34" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2f-ERKKddVoNyR4mqD_f-33">
+          <mxGeometry x="-0.1956" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8" value="year % 100 == 0" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="92" y="812" width="127" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="9" value="year % 400 == 0" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="160" y="914" width="127" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="10" value="It is a Leap Year" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="30" y="1030" width="130" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="11" value="It is not a Leap Year" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="262" y="1015" width="159" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="21" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=1;entryX=0.47;entryY=0.01;" parent="1" source="5" target="11" edge="1">
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="2f-ERKKddVoNyR4mqD_f-31">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="327" y="676" />
-              <mxPoint x="327" y="981" />
-            </Array>
+            <mxPoint x="493" y="1044.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="22" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.27;exitY=1;entryX=0.5;entryY=0;" parent="1" source="5" target="7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="155" y="676" />
-            </Array>
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-36" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2f-ERKKddVoNyR4mqD_f-35">
+          <mxGeometry x="0.1704" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="23" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;" parent="1" source="7" target="8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-31" value="year % 4 == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="480" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="24" value="Yes" style="startArrow=none;endArrow=block;exitX=0.67;exitY=1.01;entryX=0.5;entryY=-0.01;" parent="1" source="8" target="9" edge="1">
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2f-ERKKddVoNyR4mqD_f-37" target="2f-ERKKddVoNyR4mqD_f-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="25" value="Yes" style="startArrow=none;endArrow=block;exitX=0.09;exitY=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9" target="10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="26" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=1;entryX=0.53;entryY=0.01;" parent="1" source="9" target="11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="356" y="981" />
-            </Array>
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-40" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2f-ERKKddVoNyR4mqD_f-39">
+          <mxGeometry x="-0.2067" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="28" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.85;entryX=0.62;entryY=0.01;" parent="1" source="7" target="11" edge="1">
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2f-ERKKddVoNyR4mqD_f-37">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="399" y="778" />
-              <mxPoint x="399" y="981" />
-            </Array>
+            <mxPoint x="490" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.15;entryY=-0.01;" parent="1" source="10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="100" y="1124" />
-            </Array>
-            <mxPoint x="174.11764705882342" y="1149" as="targetPoint" />
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-45" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2f-ERKKddVoNyR4mqD_f-43">
+          <mxGeometry x="-0.3352" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.84;entryY=-0.01;" parent="1" source="11" edge="1">
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-37" value="year % 100 != 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="640" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2f-ERKKddVoNyR4mqD_f-38">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="342" y="1124" />
-            </Array>
-            <mxPoint x="269.5000000000002" y="1149" as="targetPoint" />
+            <mxPoint x="490" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NvN5JZaUXI073msF3Hnl-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NvN5JZaUXI073msF3Hnl-30" target="NvN5JZaUXI073msF3Hnl-31">
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-47" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2f-ERKKddVoNyR4mqD_f-46">
+          <mxGeometry x="-0.036" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2f-ERKKddVoNyR4mqD_f-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-50" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2f-ERKKddVoNyR4mqD_f-49">
+          <mxGeometry x="-0.168" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-38" value="year % 400 == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="780" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="950" as="targetPoint" />
+            <mxPoint x="260" y="950" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-52" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2f-ERKKddVoNyR4mqD_f-51">
+          <mxGeometry x="0.0362" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2f-ERKKddVoNyR4mqD_f-54" target="NvN5JZaUXI073msF3Hnl-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NvN5JZaUXI073msF3Hnl-30" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NvN5JZaUXI073msF3Hnl-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NvN5JZaUXI073msF3Hnl-31" target="5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NvN5JZaUXI073msF3Hnl-31" value="input year" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NvN5JZaUXI073msF3Hnl-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NvN5JZaUXI073msF3Hnl-41" target="NvN5JZaUXI073msF3Hnl-42">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NvN5JZaUXI073msF3Hnl-41" value="Output is the year is leap" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NvN5JZaUXI073msF3Hnl-42" value="end" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1240" width="120" height="60" as="geometry" />
+        <mxCell id="2f-ERKKddVoNyR4mqD_f-54" value="output the year is lea-p" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="910" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
